@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="app.js"></script>
+    <title>JavaScript Animated Navigation Toogle</title>
+</head>
+<body>
+    <!--Pattern HTML-->
+    <div id="pattern">
+        <a href="#menu" class="menu-link">Menu</a>
+        <nav id="menu" role="navigation">
+            <ul>
+                <li id="linkEv"><a onclick="evSec();" href="#">Ev</a></li>
+                <li id="linkHakkinda"><a onclick="hakkindaSec();" href="#">Hakkında</a></li>
+                <li id="linkUrunler"><a onclick="urunlerSec();" href="#">Ürünler</a></li>
+                <li id="linkBlog"><a onclick="blogSec();" href="#">Blog</a></li>
+                <li id="linkIletisim"><a onclick="iletisimSec();" href="#">İletişim</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--End Pattern HTML-->
+    <div id="container">
+        <div id="ev">
+            Ev İçerik
+        </div>
+        <div id="hakkinda">
+            Hakkında İçerik
+        </div>
+        <div id="urunler">
+            Ürünler İçerik
+        </div>
+        <div id="blog">
+            Blog İçerik
+        </div>
+        <div id="iletisim">
+            İletişim İçerik
+        </div>
+    </div>
+</body>
+</html>
