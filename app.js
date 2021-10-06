@@ -1,4 +1,6 @@
+//Değişkenlerin tanımlanması
 var seciliButon , hedefDiv, lastDiv,sayac=0;
+
 
 $(document).ready(function() {
     $('body').addClass('js');
@@ -11,6 +13,7 @@ $(document).ready(function() {
     return false;
   });});
 
+//Sayfa tamamen yüklendiğinde tüm tuşlara birer kere bastırıp oluşabilecek bugları engellemeye çalışıyorum
 $(document).ready(function(){
   if(sayac == 0){
     evSec();
